@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load the trained model
-model = load_model('tgmt_hand_v03_1.h5')
+model = load_model('tgmt_hand_v03_1.keras')
 
 # Define the labels for the classes
 labels = {

@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from PIL import Image, ImageTk
 
 # Đường dẫn đến mô hình đã lưu
-model_path = 'tgmt_hand_v03_1.h5'
+model_path = 'tgmt_hand_v03_1.keras'
 # Tải mô hình đã huấn luyện
 model = load_model(model_path)
 
