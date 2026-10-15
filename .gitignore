@@ -1,0 +1,14 @@
+# Python environments
+.venv/
+venv_py311/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+
+# Large datasets
+data/
+
+# Model files
+*.h5
+*.keras
